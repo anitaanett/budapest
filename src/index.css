@@ -11,7 +11,6 @@ body {
   margin: 0;
 }
 
-/* Ne alkalmazzuk az átmenetes hátteret az adatok komponensre */
 .adatok-container {
   box-sizing: border-box;
   background: none !important;
@@ -25,10 +24,9 @@ body {
   margin-bottom: 30px;
 }
 
-/* Section-ek mint lebegő dobozok, extra felső margóval */
 .container section {
   max-width: 900px;
-  margin: 40px auto 15px auto;  /* extra 40px a felső részre */
+  margin: 40px auto 15px auto;
   background-color: #ffffff;
   padding: 20px;
   border-radius: 5px;
@@ -105,11 +103,11 @@ body {
 .ujadat-container {
   background: linear-gradient(to bottom, #ffffff, #dcdcdc) !important;
   box-sizing: border-box;
-  height: 100vh;  /* A háttér kitölti az egész képernyőt */
+  height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  padding: 20px 0;  /* Csak a kívánt paddingot adjuk hozzá */
+  padding: 20px 0;
 }
 
 .felirat-section {
@@ -137,20 +135,17 @@ form {
   border-radius: 5px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   margin-bottom: 20px;
-  flex-grow: 1;  /* Az űrlap kitölti a rendelkezésre álló helyet */
+  flex-grow: 1;
 }
 
-/* Extra padding a button alá */
 .ujadat-container form button {
   margin-top: 15px;
 }
 
-/* Extra margó a navigációs rész alatt (ha külön header-t szeretnél) */
 header {
   margin-bottom: 40px;
 }
 
-/* Az 'Új Felmérés Felvétele' gomb helyzete */
 .ujfelmeres-btn-container {
   margin-top: 20px;
   text-align: center;
